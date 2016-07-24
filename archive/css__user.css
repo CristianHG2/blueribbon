@@ -1,0 +1,282 @@
+header
+{
+	background: #236B9A;
+	padding: 35px 20px 35px 20px;
+	color: #FFF;
+	overflow: auto;
+}
+
+header .logoHead
+{
+	float: left;
+}
+
+header .logoHead .title
+{
+	font-size: 50px;
+	font-family: 'Oswald', sans-serif;
+}
+
+header .searchbar
+{
+	display: inline;
+	margin-left: 17vw;
+}
+
+header .items
+{
+	float: right;
+}
+
+header .items i
+{
+	font-size: 200%;
+	padding-left: 20px;
+}
+
+.container
+{
+	margin: 0% 8% 0% 13.5%;
+	background: #FFF;
+	color: #000;
+	width: 71vw;
+	min-height: 100%;
+	overflow: auto;
+	padding: 2% 1% 2% 1%;
+}
+
+.postContainer
+{
+	padding-left: 3%;
+	padding-right: 3%;
+	height: 100%;
+}
+
+.post, .singlePost
+{
+	height: auto;
+	overflow: auto;
+	font-size: 18px !important;
+}
+
+.post .pfp, .singlePost .pfp
+{
+	width: 10%;
+	border: 2px solid #E6E6E6;
+	width: 60px;
+	height: 60px;
+	position: relative;
+	border-radius: 50%;
+}
+
+.post .message, .singlePost .message
+{
+	overflow-x: hidden;
+	overflow-y: hidden;
+	margin-left: 5%;
+	position: relative;
+	width: 80%;
+	min-height: 50px;
+	background: #E6E6E6;
+	-webkit-border-radius: 19px;
+	-moz-border-radius: 19px;
+	border-radius: 19px;
+	padding-top: 20px;
+	padding-left: 20px;
+}
+
+.post:nth-child(odd) .pfp, .singlePost .pfp
+{
+	float: left;
+}
+
+.post:nth-child(odd) .message, .singlePost .message
+{
+	float: left;
+}
+
+.post:nth-child(odd) .message
+{
+	padding-right: 14px;
+}
+
+.post
+{
+	overflow-x: hidden;
+	overflow-y: hidden;
+	margin-top: 3%;
+}
+
+.post:nth-child(odd) .message:after, .singlePost .message:after
+{
+	content: '';
+	position: absolute;
+	border-style: solid;
+	border-width: 11px 22px 11px 0;
+	border-color: transparent #E6E6E6;
+	display: block;
+	width: 0;
+	z-index: 1;
+	left: -22px;
+	top: 19px;
+}
+
+.mobile
+{
+	width: 100% !important;
+	margin-left: 0 !important;
+	margin-top: 2% !important;
+	margin-bottom: 2% !important;
+}
+
+.mobile:after
+{
+	content: '';
+	position: static !important;
+	border-style: solid;
+	border-width: 11px 22px 11px 0;
+	border-color: transparent #E6E6E6;
+	display: block;
+	width: 0;
+	z-index: 1;
+	left: -22px;
+	top: 19px;
+}
+
+.post:nth-child(even) .pfp
+{
+	border-radius: 50%;
+	float: right;
+	width: 10%;
+	border: 2px solid #E6E6E6;
+	width: 60px;
+	height: 60px;
+	position: relative;
+}
+
+.post:nth-child(even) .message
+{
+	text-align: right;
+	margin-right: 3%;
+	float: right;
+	padding-right: 14px;
+}
+
+.post:nth-child(even) .message:after
+{
+	content: '';
+	position: absolute;
+	border-style: solid;
+	border-width: 15px 0 15px 15px;
+	border-color: transparent #E6E6E6;
+	display: block;
+	width: 0;
+	z-index: 1;
+	right: -13px;
+	top: 19px;
+}
+
+.post .message .links, .singlePost .message .links
+{
+	font-size: 10px;
+	margin-top: 1%;
+	margin-bottom: 2%;
+}
+
+.post .message .links a, .singlePost .message .links a
+{
+	color: #3FA0FA;
+}
+
+.post .message b, .singlePost .message b
+{
+	font-weight: bold;
+}
+
+.post:nth-child(odd) .message .displayname
+{
+	float: left;
+	font-weight: bold;
+}
+
+.post:nth-child(even) .message .displayname
+{
+	float: right;
+	font-weight: bold;
+}
+
+.post:nth-child(odd) .message .actionLinks
+{
+	font-size: 10px;
+	float: right;
+}
+
+.post:nth-child(even) .message .actionLinks
+{
+	font-size: 10px;
+	float: left;
+}
+
+.singlePost .message .actionLinks
+{
+	font-size: 10px;
+	float: right;	
+	color: #3FA0FA !important;
+}
+
+.post .message .actionLinks a
+{
+	color: #3FA0FA;
+}
+
+.floatingmenu
+{
+	width: 80px;
+	font-size: 11px;
+	height: 56px;
+	padding: 0 0 10px 0;
+	background: #FFFFFF;
+	border: 1px solid gray;
+	z-index: 999;
+	border-radius: 10px;
+	text-align: center;
+}
+
+.floatingmenu p
+{
+	padding-top: 10px;
+	margin-bottom: 10px;
+}
+
+.floatingmenu p a
+{
+	color: #3FA0FA !important;
+}
+
+.floatingmenu:after
+{
+	content: '';
+	position: absolute;
+	border-style: solid;
+	border-width: 0 15px 15px;
+	border-color: gray transparent;
+	display: block;
+	width: 0;
+	z-index: 1;
+	top: -15px;
+	left: 25px;
+}
+
+.notification
+{
+	width: 100%; display: block; height: auto; padding: 15px 10px; margin-bottom: 1%; background: rgba(0, 0, 0, .2);
+	border-radius: 8px;
+	color: #000;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.notifSeen
+{
+	background: rgba(0, 0, 0, .05) !important;
+}

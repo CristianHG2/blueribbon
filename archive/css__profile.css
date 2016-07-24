@@ -1,0 +1,27 @@
+.unclicked
+{
+	height: 100%;
+	font-weight: bold;
+	background: #C7C7C7;
+}
+
+.clicked
+{
+	height: 100%;
+	font-weight: normal;
+	background: #E6E6E6;
+}
+
+.userPost
+{
+    color: #000 !important;
+    text-decoration: none !important;	
+	border-radius: 10px;
+	margin-bottom: 1%;
+	padding: 16px 20px 16px 20px;
+}
+
+.userPostClick
+{
+	text-decoration: none !important;
+}
