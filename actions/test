@@ -1,0 +1,10 @@
+array (
+  'pic' => 
+  array (
+    'name' => 'kokopelli_by_tipitai.jpg',
+    'type' => 'image/jpeg',
+    'tmp_name' => '/tmp/phpZ9qvvR',
+    'error' => 0,
+    'size' => 592756,
+  ),
+)
