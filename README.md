@@ -1,2 +1,2 @@
 # blueribbon
-Basic social networking platform
+(LEGACY) Basic social networking platform
